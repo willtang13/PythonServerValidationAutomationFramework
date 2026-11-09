@@ -19,9 +19,9 @@
 | Day 2：需求與責任分工 | [Course_Day2.md](Course_Day2.md) | 已完成（沿用原紀錄） |
 | Day 3：資料模型設計 | [Course_Day3.md](Course_Day3.md) | 已完成 |
 | Day 4：模組邊界與可測試性 | [Course_Day4.md](Course_Day4.md) | 已完成 |
-| Day 5：私鑰與連線生命週期 | [Course_Day5.md](Course_Day5.md) | 進行中：實作審查通過，待真實登入（[Day 5 筆記](Note_Day5_261104.md)） |
-| Day 6：單一指令成功路徑 | [Course_Day6.md](Course_Day6.md) | 待上課 |
-| Day 7：非零結果與輸出保真 | [Course_Day7.md](Course_Day7.md) | 待上課 |
+| Day 5：私鑰與連線生命週期 | [Course_Day5.md](Course_Day5.md) | 已完成（[Day 5 筆記](Note_Day5_261104.md)） |
+| Day 6：單一指令成功路徑 | [Course_Day6.md](Course_Day6.md) | 已完成（[Day 6 驗收筆記](Note_Day6_261109.md)） |
+| Day 7：非零結果與輸出保真 | [Course_Day7.md](Course_Day7.md) | 已完成（[Day 7 結課筆記](Note_Day7_261109.md)） |
 | Day 8：例外分類與因果保留 | [Course_Day8.md](Course_Day8.md) | 待上課 |
 | Day 9：資源清理與失敗注入 | [Course_Day9.md](Course_Day9.md) | 待上課 |
 | Day 10：逾時需求與時間預算 | [Course_Day10.md](Course_Day10.md) | 待上課 |

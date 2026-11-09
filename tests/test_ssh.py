@@ -5,6 +5,8 @@ import getpass
 import paramiko
 import pytest
 
+from CourseNotes.CourseExamples.day6_small_command_execution import execute_small
+
 
 @pytest.fixture(scope="module")
 def ssh_client():
@@ -45,14 +47,19 @@ def ssh_client():
 def test_hostname(ssh_client):
     """TC001: Validate server hostname."""
 
-    stdin, stdout, stderr = ssh_client.exec_command(
-        "hostname",
-        timeout=10,
-    )
+    result = execute_small(client=ssh_client, command="hostname")
+    print(result)
 
-    exit_code = stdout.channel.recv_exit_status()
-    output = stdout.read().decode("utf-8").strip()
-    error = stderr.read().decode("utf-8").strip()
+    assert result.exit_code == 0
+    assert result.stdout == "serverlab-ubuntu\n"
+    # stdin, stdout, stderr = ssh_client.exec_command(
+    #     "hostname",
+    #     timeout=10,
+    # )
 
-    assert exit_code == 0, error
-    assert output == "serverlab-ubuntu"
+    # exit_code = stdout.channel.recv_exit_status()
+    # output = stdout.read().decode("utf-8").strip()
+    # error = stderr.read().decode("utf-8").strip()
+
+    # assert exit_code == 0, error
+    # assert output == "serverlab-ubuntu"
