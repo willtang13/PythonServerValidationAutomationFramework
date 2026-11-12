@@ -23,7 +23,7 @@
 | Day 6：單一指令成功路徑 | [Course_Day6.md](Course_Day6.md) | 已完成（[Day 6 驗收筆記](Note_Day6_261109.md)） |
 | Day 7：非零結果與輸出保真 | [Course_Day7.md](Course_Day7.md) | 已完成（[Day 7 結課筆記](Note_Day7_261109.md)） |
 | Day 8：例外分類與因果保留 | [Course_Day8.md](Course_Day8.md) | 已完成（[Day 8 結課筆記](Note_Day8_261110.md)） |
-| Day 9：資源清理與失敗注入 | [Course_Day9.md](Course_Day9.md) | 待上課 |
+| Day 9：資源清理與失敗注入 | [Course_Day9.md](Course_Day9.md) | 已完成（[Day 9 結課筆記](Note_Day9_261113.md)） |
 | Day 10：逾時需求與時間預算 | [Course_Day10.md](Course_Day10.md) | 待上課 |
 | Day 11：持續讀取雙串流 | [Course_Day11.md](Course_Day11.md) | 待上課 |
 | Day 12：指令總期限實作 | [Course_Day12.md](Course_Day12.md) | 待上課 |
